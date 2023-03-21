@@ -16,12 +16,8 @@ const Example = ({ data }: { data: any[] }) => {
             </Badge>
           </Group>
 
-          <Text size="sm" color="dimmed">
-            {item.content}
-          </Text>
-
           <Button variant="light" color="blue" fullWidth mt="md" radius="md">
-            Book classic tour now
+            Book Now
           </Button>
         </Card>
       ))}
