@@ -22,7 +22,6 @@ const ExampleLayout = ({ children }: any) => {
               >
                 Home
               </a>
-              <a href="#"></a>
             </div>
           </div>
         </div>
