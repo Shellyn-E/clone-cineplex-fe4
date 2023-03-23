@@ -22,7 +22,7 @@ const ExampleLayout = ({ children }: any) => {
           </div>
         </div>
       </nav>
-      <div className="pt-[20px] pb-4 px-2 md:px-5">
+      <div className="ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">
         <ul>
           <a href="#" className="p-3">
             Now Playing
