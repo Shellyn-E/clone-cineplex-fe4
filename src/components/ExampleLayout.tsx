@@ -22,21 +22,36 @@ const ExampleLayout = ({ children }: any) => {
           </div>
         </div>
       </nav>
-      <div className="ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">
+      <div>
         <ul>
-          <a href="#" className="p-3">
+          <a
+            href="#"
+            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+          >
             Now Playing
           </a>
-          <a href="#" className="p-3">
+          <a
+            href="#"
+            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+          >
             Upcoming
           </a>
-          <a href="#" className="p-3">
+          <a
+            href="#"
+            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+          >
             Theaters
           </a>
-          <a href="#" className="p-3">
+          <a
+            href="#"
+            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+          >
             Promotion
           </a>
-          <a href="#" className="p-3">
+          <a
+            href="#"
+            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+          >
             Info 21
           </a>
         </ul>
