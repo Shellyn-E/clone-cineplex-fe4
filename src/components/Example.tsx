@@ -12,7 +12,7 @@ const Example = ({ data }: { data: any[] }) => {
           <Group position="apart" mt="md" mb="xs">
             <Text weight={500}>{item.name}</Text>
             <Badge color="pink" variant="light">
-              SU
+              haha
             </Badge>
           </Group>
 

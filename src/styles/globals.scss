@@ -8,3 +8,24 @@ body {
   margin: 0;
   letter-spacing: 0.05em;
 }
+
+:root {
+  --base: #046464;
+  --gold: #b5a378;
+}
+
+.navbar {
+  position: relative;
+}
+
+.navbar a {
+  font: medium;
+  padding-left: 30px;
+  color: var(--base);
+  float: center;
+}
+
+.navbar a:hover {
+  color: var(--gold);
+  padding-bottom: 0.5rem;
+}

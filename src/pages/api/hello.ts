@@ -11,6 +11,7 @@ export default function handler(
       {
         name: "John Wick: Chapter 4",
         src: "https://media.21cineplex.com/webcontent/gallery/pictures/167706370552494_405x594.jpg",
+        umur: "D17+",
       },
       {
         name: "Dungeons & Dragons: Honor Among Thieves",
