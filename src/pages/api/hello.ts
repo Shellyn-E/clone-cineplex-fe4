@@ -9,49 +9,36 @@ export default function handler(
     status: { code: 200 },
     rows: [
       {
-        name: "Norway",
-        content:
-          "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
-        contact: "hello@example",
-        question: "random question",
-        status: "on progress",
-        src: "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80",
+        name: "John Wick: Chapter 4",
+        src: "https://media.21cineplex.com/webcontent/gallery/pictures/167706370552494_405x594.jpg",
       },
       {
-        name: "Streets",
-        content:
-          "Magical fjord landscapes with tours and activities on and around the fjords of Norway",
-        contact: "contact@example",
-        question: "random",
-        status: "on progress",
-        src: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80",
+        name: "Dungeons & Dragons: Honor Among Thieves",
+        src: "https://media.21cineplex.com/webcontent/gallery/pictures/167764540494637_290x426.jpg",
       },
       {
-        name: "Night Mode",
-        content:
-          "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
-        contact: "contact@example",
-        question: "random",
-        status: "on progress",
-        src: "https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=250&q=80",
+        name: "Mrs. Chatterjee vs. Norway",
+        src: "https://media.21cineplex.com/webcontent/gallery/pictures/167878648415176_290x426.jpg",
       },
       {
-        name: "roman picisan",
-        content:
-          "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
-        contact: "contact@example",
-        question: "random",
-        status: "on progress",
-        src: "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80",
+        name: "Shazam! Fury of the Gods",
+        src: "https://media.21cineplex.com/webcontent/gallery/pictures/167756795914615_290x426.jpg",
       },
       {
-        name: "roman picisan",
-        content:
-          "With Fjord Tours you can explore more of the magical fjord landscapes with tours and activities on and around the fjords of Norway",
-        contact: "contact@example",
-        question: "random",
-        status: "on progress",
-        src: "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80",
+        name: "Suzume",
+        src: "https://media.21cineplex.com/webcontent/gallery/pictures/167784448479603_290x426.jpg",
+      },
+      {
+        name: "Jin Qorin",
+        src: "https://media.21cineplex.com/webcontent/gallery/pictures/167755551155249_290x426.jpg",
+      },
+      {
+        name: "Hantu Baru",
+        src: "https://media.21cineplex.com/webcontent/gallery/pictures/167755542452152_290x426.jpg",
+      },
+      {
+        name: "Losmen Melati",
+        src: "https://media.21cineplex.com/webcontent/gallery/pictures/167775537273660_290x426.jpg",
       },
     ],
     total_rows: 10,

@@ -18,60 +18,51 @@ const ExampleLayout = ({ children }: any) => {
                   alt="Logo"
                 />
               </a>
-              <div
-                className="absolute{100}"
-                style={{
-                  position: "absolute",
-                  top: 20,
-                  bottom: 0,
-                  right: 0,
-                  left: 1400,
-                  width: "100%",
-                  height: "100%",
-                  display: "flex",
-                }}
-              ></div>
-              <div className="w-2/3 absolute{80}">
+              <div>
                 <input
                   style={{ float: "right", margin: "0.5 rem 1rem 5rem 2rem" }}
                   type="text"
                   placeholder="Search teathers, movies..."
                   className="bg-white rounded-full border border-white focus:outline-none focus:ring-2 focus:ring-emerald-800 focus:border-transparentpx-4 py-2 w-64"
                 />
+                <button
+                  type="submit"
+                  className="absolute right-0 top-0 mt-3 mr-4"
+                ></button>
               </div>
             </div>
           </div>
         </div>
       </nav>
-      <div>
+      <div className="pt-[15px] w-full h-[55px] pb-3 px-2 md:px-5 absolute{100} flex space-between bg-tiga">
         <ul>
           <a
             href="#"
-            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-teal-800 hover:text-white hover:bg-teal-800 focus:outline-none focus:text-white focus:bg-teal-800"
           >
             Now Playing
           </a>
           <a
             href="#"
-            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-teal-800 hover:text-white hover:bg-teal-800 focus:outline-none focus:text-white focus:bg-teal-800"
           >
             Upcoming
           </a>
           <a
             href="#"
-            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-teal-800 hover:text-white hover:bg-teal-800 focus:outline-none focus:text-white focus:bg-teal-800"
           >
             Theaters
           </a>
           <a
             href="#"
-            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-teal-800 hover:text-white hover:bg-teal-800 focus:outline-none focus:text-white focus:bg-teal-800"
           >
             Promotion
           </a>
           <a
             href="#"
-            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-green-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+            className="p-3 ml-4 px-3 py-2 rounded-md text-sm font-medium text-teal-800 hover:text-white hover:bg-teal-800 focus:outline-none focus:text-white focus:bg-teal-800"
           >
             Info 21
           </a>
