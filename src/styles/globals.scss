@@ -20,6 +20,7 @@ body {
 
 .navbar a {
   font: medium;
+  font-weight: 500;
   padding-left: 30px;
   color: var(--base);
   float: center;
@@ -27,5 +28,4 @@ body {
 
 .navbar a:hover {
   color: var(--gold);
-  padding-bottom: 0.5rem;
 }

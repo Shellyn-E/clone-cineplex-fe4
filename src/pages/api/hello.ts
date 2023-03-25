@@ -11,35 +11,42 @@ export default function handler(
       {
         name: "John Wick: Chapter 4",
         src: "https://media.21cineplex.com/webcontent/gallery/pictures/167706370552494_405x594.jpg",
-        umur: "D17+",
+        umurD: "D17+",
       },
       {
         name: "Dungeons & Dragons: Honor Among Thieves",
         src: "https://media.21cineplex.com/webcontent/gallery/pictures/167764540494637_290x426.jpg",
+        umurSU: "SU",
       },
       {
         name: "Mrs. Chatterjee vs. Norway",
         src: "https://media.21cineplex.com/webcontent/gallery/pictures/167878648415176_290x426.jpg",
+        umurR: "R13+",
       },
       {
         name: "Shazam! Fury of the Gods",
         src: "https://media.21cineplex.com/webcontent/gallery/pictures/167756795914615_290x426.jpg",
+        umurR: "R13+",
       },
       {
         name: "Suzume",
         src: "https://media.21cineplex.com/webcontent/gallery/pictures/167784448479603_290x426.jpg",
+        umurSU: "SU",
       },
       {
         name: "Jin Qorin",
         src: "https://media.21cineplex.com/webcontent/gallery/pictures/167755551155249_290x426.jpg",
+        umurD: "D17+",
       },
       {
         name: "Hantu Baru",
         src: "https://media.21cineplex.com/webcontent/gallery/pictures/167755542452152_290x426.jpg",
+        umurR: "R13+",
       },
       {
         name: "Losmen Melati",
         src: "https://media.21cineplex.com/webcontent/gallery/pictures/167775537273660_290x426.jpg",
+        umurD: "D17+",
       },
     ],
     total_rows: 10,
