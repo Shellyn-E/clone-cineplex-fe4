@@ -30,27 +30,6 @@ const ExampleLayout = ({ children }: any) => {
         </div>
       </div>
       <div className="w-full bg-grey-400 h-[60px] p-5 border border-b navbar">
-        {/* <img
-          src="images/imax.png"
-          width={125}
-          alt="Image"
-          style={{ float: "right", margin: "center" }}
-          className="pl-[50px]"
-        />
-        <img
-          src="images/dolby.png"
-          width={125}
-          alt="Image"
-          style={{ float: "right", margin: "center" }}
-          className="pl-[50px] pt-[5px]"
-        />
-        <img
-          src="images/mtix.png"
-          width={125}
-          alt="Image"
-          style={{ float: "right", margin: "center" }}
-          className="pl-[50px]"
-        /> */}
         <ul>
           <a href="#" style={{ margin: "4rem 0rem 2rem 4rem" }}>
             Now Playing

@@ -16,7 +16,7 @@ const Example = ({ data }: { data: any[] }) => {
           <Image
             src={item.umur}
             height={20}
-            width={50}
+            width={45}
             alt="umur"
             place-items-center
           />
