@@ -7,10 +7,18 @@ const ExampleLayout = ({ children }: any) => {
   return (
     <>
       <div className="flex z-40 w-full bg-teal-800 h-[90px] p-5 border border-b">
-        <img src="images/logo.png" width={300} alt="Logo" />
-        <div className="w-4/5 absolute{90} pt-[10px]">
+        <img
+          src="images/logo.png"
+          width={300}
+          alt="Logo"
+          style={{ marginLeft: "50px" }}
+        />
+        <div className="w-2/3 absolute{60} ">
           <input
-            style={{ float: "right", margin: "center" }}
+            style={{
+              float: "right",
+              margin: " 0.5rem -7rem 8rem 3rem",
+            }}
             className="bg-white rounded-full border-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-800 focus:border-transparent px-4 py-2 w-64"
             type="text"
             placeholder="Search teathers, movies..."
@@ -22,7 +30,7 @@ const ExampleLayout = ({ children }: any) => {
         </div>
       </div>
       <div className="w-full bg-grey-400 h-[60px] p-5 border border-b navbar">
-        <img
+        {/* <img
           src="images/imax.png"
           width={125}
           alt="Image"
@@ -42,18 +50,95 @@ const ExampleLayout = ({ children }: any) => {
           alt="Image"
           style={{ float: "right", margin: "center" }}
           className="pl-[50px]"
-        />
+        /> */}
         <ul>
-          <a href="#">Now Playing</a>
-          <a href="#">Upcoming</a>
+          <a href="#" style={{ margin: "4rem 0rem 2rem 4rem" }}>
+            Now Playing
+          </a>
+          <a href="/upcoming" className="p-3 text-teal-800">
+            Upcoming
+          </a>
           <a href="#">Theaters</a>
           <a href="#">Promotions</a>
           <a href="#">Info 21</a>
+          <a href="https://21cineplex.com/imax">
+            <Image
+              src="/images/imax.png"
+              height={18}
+              width={80}
+              alt=""
+              style={{ margin: "-1.5rem 0rem 2rem 47rem" }}
+            ></Image>
+          </a>
+          <a href="https://21cineplex.com/dolby-atmos">
+            <Image
+              src="/images/dolby.png"
+              alt=""
+              height={18}
+              width={120}
+              style={{ margin: "-4.7rem 0rem 2rem 56rem" }}
+            ></Image>
+          </a>
+          <a href="https://mtix.21cineplex.com/?mod=mtix">
+            <Image
+              src="/images/mtix.png"
+              alt=""
+              height={18}
+              width={82}
+              style={{ margin: "-4.9rem 0rem 2rem 67.5rem" }}
+            ></Image>
+          </a>
         </ul>
       </div>
+      <img
+        style={{ margin: "35px 100px" }}
+        src="/images/iklan.jpg"
+        alt="iklan"
+        width={865}
+        height={100}
+      />
+      <div
+        style={{ margin: "550px 0rem -2.1rem 8.7rem" }}
+        className="mt-20 ml-13 w-40 bg-teal-800 text-gray-300 text-center pb-1.5 pt-0.5 font-bold tracking-widest"
+      >
+        <p>Now Playing</p>
+      </div>
+
+      <div
+        style={{ margin: "-21px 6rem 0rem 18.8rem" }}
+        className="mt-45 ml-71 w-40 bg-gray-300 text-teal-800 text-center pb-1.5 pt-0.5 font-bold tracking-widest w-34 p-1"
+      >
+        <div className="select-twenty">
+          <select className="custom-select bg-gray-300" id="city-change p-1">
+            <option value="1">JAKARTA</option>
+            <option value="2">AMBON</option>
+            <option value="3">BALIKPAPAN</option>
+            <option value="4">BANDUNG</option>
+            <option value="5">BANJARMASIN</option>
+            <option value="6">BATAM</option>
+            <option value="7">BEKASI</option>
+            <option value="8">BENGKULU</option>
+            <option value="9">BOGOR</option>
+            <option value="10">CIKARANG</option>
+            <option value="11">CILEGON</option>
+            <option value="12">CIREBON</option>
+            <option value="13">CIREBON</option>
+            <option value="14">DENPASAR</option>
+            <option value="15">DEPOK</option>
+            <option value="16">JAKARTA</option>
+            <option value="17">PONTIANAK</option>
+          </select>
+        </div>
+      </div>
       <div className="pt-[88px] pb-4 px-2 md:px-5">{children}</div>
-      <div className="w-full bg-gray-50 h-[100px] pb-[48px] md:pb-0 px-2 md:px-5">
-        Footer
+      <div className="w-full bg-teal-800 h-[140px] pb-[48px] md:pb-0 px-2 md:px-5">
+        <ul className="p-3 text-gray-200 " style={{ marginLeft: "70px" }}>
+          <a href="#">Profile</a>
+          <a href="#"> | </a>
+          <a href="#">Terms of Use</a>
+          <a href="#"> | </a>
+          <a href="#">Advertising</a>
+        </ul>
       </div>
     </>
   );

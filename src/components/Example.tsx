@@ -2,7 +2,7 @@ import { Badge, Button, Card, Group, Image, Text } from "@mantine/core";
 
 const Example = ({ data }: { data: any[] }) => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 p-10 m-20">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 p-10 mx-20">
       {data?.map((item, index) => (
         <Card key={index}>
           <Card.Section>
@@ -13,17 +13,13 @@ const Example = ({ data }: { data: any[] }) => {
             {item.name}
           </Text>
 
-          <Badge color="red" variant="light" mt="md" radius="md">
-            {item.umurD}
-          </Badge>
-
-          <Badge color="blue" variant="light" mt="md" radius="md">
-            {item.umurR}
-          </Badge>
-
-          <Badge color="green" variant="light" mt="md" radius="md">
-            {item.umurSU}
-          </Badge>
+          <Image
+            src={item.umur}
+            height={20}
+            width={50}
+            alt="umur"
+            place-items-center
+          />
         </Card>
       ))}
     </div>
