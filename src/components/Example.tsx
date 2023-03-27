@@ -18,7 +18,11 @@ const Example = ({ data }: { data: any[] }) => {
             height={20}
             width={45}
             alt="umur"
-            place-items-center
+            style={{
+              marginTop: 25,
+              marginLeft: 120,
+              marginRight: 10,
+            }}
           />
         </Card>
       ))}

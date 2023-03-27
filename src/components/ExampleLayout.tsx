@@ -82,7 +82,6 @@ const ExampleLayout = ({ children }: any) => {
       >
         <p>Now Playing</p>
       </div>
-
       <div
         style={{ margin: "-21px 6rem 0rem 18.8rem" }}
         className="mt-45 ml-71 w-40 bg-gray-300 text-teal-800 text-center pb-1.5 pt-0.5 font-bold tracking-widest w-34 p-1"
@@ -110,15 +109,48 @@ const ExampleLayout = ({ children }: any) => {
         </div>
       </div>
       <div className="pt-[88px] pb-4 px-2 md:px-5">{children}</div>
-      <div className="w-full bg-teal-800 h-[140px] pb-[48px] md:pb-0 px-2 md:px-5">
-        <ul className="p-3 text-gray-200 " style={{ marginLeft: "70px" }}>
-          <a href="#">Profile</a>
-          <a href="#"> | </a>
-          <a href="#">Terms of Use</a>
-          <a href="#"> | </a>
-          <a href="#">Advertising</a>
+      <div className="z-50 w-full bg-teal-800 h-[145px] p-5 font-semibold">
+        <ul>
+          <a
+            href="#"
+            style={{
+              margin: "4rem 0rem 2rem 4rem",
+            }}
+            className="p-3 text-gray-200 font-normal"
+          >
+            Profile
+          </a>
+          <a href="#" className="p-3 text-gray-200 font-normal">
+            |
+          </a>
+          <a href="#" className="p-3 text-gray-200 font-normal">
+            Terms Of use
+          </a>
+          <a href="#" className="p-3 text-gray-200 font-normal">
+            |
+          </a>
+          <a href="#" className="p-3 text-gray-200 font-normal">
+            Advertising
+          </a>
+          <p
+            style={{
+              fontSize: 12,
+              margin: "2rem 0rem 2rem 5rem",
+              color: "white",
+            }}
+          >
+            © 1999-2012 21Cineplex.com. All materials and contents (texts,
+            graphics, and every attributes) of 21Cineplex or 21Cineplex.com
+            website are copyrights and trademarks of PT Nusantara Sejahtera
+            Raya. Any commercial usage of the materials and contents is
+            forbidden without prior permission from PT Nusantara Sejahtera Raya.
+            There is no other institutions/agencies outside. PT Nusantara
+            Sejahtera Raya allowed to use www.21Cineplex.com (21Cineplex
+            website) without prior permission from PT Nusantara Sejahtera Raya.
+          </p>
         </ul>
       </div>
+      @shellyneu
     </>
   );
 };
