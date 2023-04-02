@@ -6,6 +6,8 @@ import Link from "next/link";
 const ExampleLayout = ({ children }: any) => {
   return (
     <>
+      <title>CINEMA 21 - We Are The Largest Cinema Chain in Indonesia</title>
+      <div className=" object-top  w-full bg-white h-[110px] p-6 border-b"></div>
       <div className="flex z-40 w-full bg-teal-800 h-[90px] p-5 border border-b">
         <img
           src="images/logo.png"
@@ -19,14 +21,10 @@ const ExampleLayout = ({ children }: any) => {
               float: "right",
               margin: " 0.5rem -7rem 8rem 3rem",
             }}
-            className="bg-white rounded-full border-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-800 focus:border-transparent px-4 py-2 w-64"
+            className="z-50 bg-zinc-200 rounded-full border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-4 py-2 w-96 italic text-sm font-light"
             type="text"
             placeholder="Search teathers, movies..."
           />
-          <button
-            type="submit"
-            className="absolute right-0 top-0 mt-3 mr-4"
-          ></button>
         </div>
       </div>
       <div className="w-full bg-grey-400 h-[60px] p-5 border border-b navbar">
