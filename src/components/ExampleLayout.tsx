@@ -29,7 +29,7 @@ const ExampleLayout = ({ children }: any) => {
       </div>
       <div className="w-full bg-grey-400 h-[60px] p-5 border border-b navbar">
         <ul>
-          <a href="#" style={{ margin: "4rem 0rem 2rem 4rem" }}>
+          <a href="/" style={{ margin: "4rem 0rem 2rem 4rem" }}>
             Now Playing
           </a>
           <a href="/upcoming">Upcoming</a>
