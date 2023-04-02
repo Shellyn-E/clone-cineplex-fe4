@@ -34,9 +34,7 @@ const ExampleLayout = ({ children }: any) => {
           <a href="#" style={{ margin: "4rem 0rem 2rem 4rem" }}>
             Now Playing
           </a>
-          <a href="/upcoming" className="p-3 text-teal-800">
-            Upcoming
-          </a>
+          <a href="/upcoming">Upcoming</a>
           <a href="#">Theaters</a>
           <a href="#">Promotions</a>
           <a href="#">Info 21</a>
