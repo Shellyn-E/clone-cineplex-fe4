@@ -72,39 +72,6 @@ const ExampleLayout = ({ children }: any) => {
         width={865}
         height={100}
       />
-      <div
-        style={{ margin: "550px 0rem -2.1rem 8.7rem" }}
-        className="mt-20 ml-13 w-40 bg-teal-800 text-gray-300 text-center pb-1.5 pt-0.5 font-bold tracking-widest"
-      >
-        <p>Now Playing</p>
-      </div>
-      <div
-        style={{ margin: "-21px 6rem 0rem 18.8rem" }}
-        className="mt-45 ml-71 w-40 bg-gray-300 text-teal-800 text-center pb-1.5 pt-0.5 font-bold tracking-widest w-34 p-1"
-      >
-        <div className="select-twenty">
-          <select className="custom-select bg-gray-300" id="city-change p-1">
-            <option value="1">JAKARTA</option>
-            <option value="2">AMBON</option>
-            <option value="3">BALIKPAPAN</option>
-            <option value="4">BANDUNG</option>
-            <option value="5">BANJARMASIN</option>
-            <option value="6">BATAM</option>
-            <option value="7">BEKASI</option>
-            <option value="8">BENGKULU</option>
-            <option value="9">BOGOR</option>
-            <option value="10">CIKARANG</option>
-            <option value="11">CILEGON</option>
-            <option value="12">CIREBON</option>
-            <option value="13">CIREBON</option>
-            <option value="14">DENPASAR</option>
-            <option value="15">DEPOK</option>
-            <option value="16">JAKARTA</option>
-            <option value="17">PONTIANAK</option>
-          </select>
-        </div>
-      </div>
-      <div className="pt-[88px] pb-4 px-2 md:px-5">{children}</div>
       <div className="z-50 w-full bg-teal-800 h-[145px] p-5 font-semibold">
         <ul>
           <a
