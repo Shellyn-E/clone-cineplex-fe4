@@ -33,9 +33,9 @@ const ExampleLayout = ({ children }: any) => {
             Now Playing
           </a>
           <a href="/upcoming">Upcoming</a>
-          <a href="#">Theaters</a>
-          <a href="#">Promotions</a>
-          <a href="#">Info 21</a>
+          <a href="/theaters">Theaters</a>
+          <a href="/promotion">Promotions</a>
+          <a href="/info21">Info 21</a>
           <a href="https://21cineplex.com/imax">
             <Image
               src="/images/imax.png"
