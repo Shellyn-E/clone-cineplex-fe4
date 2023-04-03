@@ -21,7 +21,7 @@ const ExampleLayout = ({ children }: any) => {
               float: "right",
               margin: " 0.5rem -7rem 8rem 3rem",
             }}
-            className="z-50 bg-zinc-200 rounded-full border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-4 py-2 w-96 italic text-sm font-light"
+            className="z-50 bg-zinc-200 rounded-full border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-800 focus:border-transparent px-4 py-2 w-96 italic text-sm font-light"
             type="text"
             placeholder="Search teathers, movies..."
           />
@@ -42,7 +42,7 @@ const ExampleLayout = ({ children }: any) => {
               height={18}
               width={80}
               alt=""
-              style={{ margin: "-1.5rem 0rem 2rem 47rem" }}
+              style={{ float: "right", margin: "-1.5rem 28rem 2rem 13rem" }}
             ></Image>
           </a>
           <a href="https://21cineplex.com/dolby-atmos">
@@ -51,7 +51,7 @@ const ExampleLayout = ({ children }: any) => {
               alt=""
               height={18}
               width={120}
-              style={{ margin: "-4.7rem 0rem 2rem 56rem" }}
+              style={{ float: "right", margin: "-3.1rem 16rem 2rem 74rem" }}
             ></Image>
           </a>
           <a href="https://mtix.21cineplex.com/?mod=mtix">
@@ -60,7 +60,7 @@ const ExampleLayout = ({ children }: any) => {
               alt=""
               height={18}
               width={82}
-              style={{ margin: "-4.9rem 0rem 2rem 67.5rem" }}
+              style={{ float: "right", margin: "-4.9rem 5rem 2rem 74.5rem" }}
             ></Image>
           </a>
         </ul>
@@ -74,13 +74,13 @@ const ExampleLayout = ({ children }: any) => {
       />
       <div
         style={{ margin: "550px 0rem -2.1rem 8.7rem" }}
-        className="mt-20 ml-13 w-40 bg-teal-800 text-gray-300 text-center pb-1.5 pt-0.5 font-bold tracking-widest"
+        className="mt-20 ml-13 w-40 bg-teal-800 text-gray-300 text-center pb-1.5 pt-1 font-bold tracking-widest"
       >
         <p>Now Playing</p>
       </div>
       <div
         style={{ margin: "-21px 6rem 0rem 18.8rem" }}
-        className="mt-45 ml-71 w-40 bg-gray-300 text-teal-800 text-center pb-1.5 pt-0.5 font-bold tracking-widest w-34 p-1"
+        className="mt-50 ml-71 w-40 bg-gray-300 text-teal-800 text-center pb-1.5 pt-1 font-bold tracking-widest w-34 p-1"
       >
         <div className="select-twenty">
           <select className="custom-select bg-gray-300" id="city-change p-1">

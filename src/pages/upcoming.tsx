@@ -21,7 +21,7 @@ const ExampleLayout = ({ children }: any) => {
               float: "right",
               margin: " 0.5rem -7rem 8rem 3rem",
             }}
-            className="z-50 bg-zinc-200 rounded-full border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent px-4 py-2 w-96 italic text-sm font-light"
+            className="z-50 bg-zinc-200 rounded-full border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-800 focus:border-transparent px-4 py-2 w-96 italic text-sm font-light"
             type="text"
             placeholder="Search teathers, movies..."
           />
@@ -42,7 +42,7 @@ const ExampleLayout = ({ children }: any) => {
               height={18}
               width={80}
               alt=""
-              style={{ margin: "-1.5rem 0rem 2rem 47rem" }}
+              style={{ float: "right", margin: "-1.5rem 28rem 2rem 13rem" }}
             ></Image>
           </a>
           <a href="https://21cineplex.com/dolby-atmos">
@@ -51,7 +51,7 @@ const ExampleLayout = ({ children }: any) => {
               alt=""
               height={18}
               width={120}
-              style={{ margin: "-4.7rem 0rem 2rem 56rem" }}
+              style={{ float: "right", margin: "-3.1rem 16rem 2rem 74rem" }}
             ></Image>
           </a>
           <a href="https://mtix.21cineplex.com/?mod=mtix">
@@ -60,7 +60,7 @@ const ExampleLayout = ({ children }: any) => {
               alt=""
               height={18}
               width={82}
-              style={{ margin: "-4.9rem 0rem 2rem 67.5rem" }}
+              style={{ float: "right", margin: "-4.9rem 5rem 2rem 74.5rem" }}
             ></Image>
           </a>
         </ul>
